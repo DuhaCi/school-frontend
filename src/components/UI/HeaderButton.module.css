@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+.HeaderButton {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+@media screen and (max-width: 450px) {
+    .HeaderButton {
+        font-size: 15px;
+    }
+}
