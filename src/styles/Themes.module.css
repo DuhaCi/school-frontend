@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+.link {
+    text-decoration: none;
+}
+
+.ThemeList {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    border-radius: 30px;
+    width: 50%;
+}
+.ThemeBlock {
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    transition: .3s;
+    margin-bottom: 10px;
+    border-bottom: 3px solid rgb(237, 237, 237);
+}
+.ThemeBlock:hover {
+    box-shadow: 1px 1px 10px rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.Header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 15px auto 15px auto;
+
+
+}
+
+/* Стили для отдельной вкладки */
+
+.InfoContainer {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.InfoDescription {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.Info {
+    font-size: 17px;
+    width: 60%;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 700px) {
+    .ThemeBlock {
+       font-size: 15px;
+    }
+    .Header {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .ThemeList {
+        width: 100%;
+    }
+    .ThemeBlock {
+       font-size: 15px;
+    }
+    .Header {
+        font-size: 17px;
+    }
+}

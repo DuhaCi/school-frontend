@@ -1,0 +1,23 @@
+.practiceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.practiceLink {
+    text-decoration: none;
+    color: rgb(131, 131, 131);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.practiceLink:hover {
+    transition: .2s ease-in-out;
+    color: black;
+    transform: scale(1.01);
+}
